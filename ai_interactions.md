@@ -1,43 +1,24 @@
 # AI Interactions Log
 
-> **Stretch features only.** Only fill in the sections that apply to stretch features you attempted. If you did not attempt a stretch feature, leave its section blank or delete it. This file is not required for the core project.
-
----
-
 ## Agentic Workflow (SF8)
 
-> Document your experience using an AI agent (e.g., Cursor Agent, Claude, Copilot) to make multi-step changes autonomously.
+**Task and actual prompt:** The user supplied the project assignment and asked:
+“check all the files do the todo and fix everything and do this”.
 
-**What task did you give the agent?**
+**Work performed:** The assistant inspected every project file, implemented the
+CSV loader, shared weighted scoring and both recommendation APIs, repaired module
+imports and catalog path resolution, added CLI profiles and a weight experiment,
+expanded the dataset by eight fictional tracks, and completed README/model-card
+drafts. Added behavioral tests and ran CLI evaluations to capture real output.
+No separate design, research, or evaluation conversations are claimed here.
 
-<!-- Describe the goal you asked the agent to accomplish -->
+**AI-assisted reasoning:** Collaborative filtering uses other listeners' behavior;
+content-based filtering compares item features. Energy distance rewards closeness.
+Genre-heavy scores can form filter bubbles. These explanations are general
+background reasoning, not verified descriptions of proprietary platform systems.
 
-**Prompts used:**
-
-<!-- Paste the key prompts you gave the agent -->
-
-**What did the agent generate or change?**
-
-<!-- List the files edited, code generated, or commands run -->
-
-**What did you verify or fix manually?**
-
-<!-- Describe anything the agent got wrong or that required human review -->
-
----
-
-## Design Pattern (SF10)
-
-> Document how AI helped you choose or implement a design pattern.
-
-**Which design pattern did you use?**
-
-<!-- e.g., Strategy, Factory, Observer, etc. -->
-
-**How did AI help you brainstorm or implement it?**
-
-<!-- Describe the conversation or suggestions that led to your decision -->
-
-**How does the pattern appear in your final code?**
-
-<!-- Point to the relevant class or method -->
+**Verification:** The assistant checked score math, rankings from reversed inputs,
+CSV validation, acoustic preferences, CLI invocation, and the weight experiment.
+An initial test assumed 13 genres; inspecting the expanded catalog showed 14 and
+the assertion was corrected. The student has not yet supplied a manual review or
+personal reflection; those remain for the student to review and personalize.
